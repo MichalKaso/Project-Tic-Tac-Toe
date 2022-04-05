@@ -1,0 +1,106 @@
+ body {
+   background-image: url(https://images.unsplash.com/photo-1610428925929-75c89fc84cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80);
+   background-size: cover;
+   font-family: 'Helvetica Neue', sans-serif;
+ }
+
+
+ h1 {
+   color: #111;
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 75px;
+   font-weight: bold;
+   letter-spacing: -1px;
+   line-height: 1;
+   text-align: center;
+ }
+
+
+ .btn {
+   appearance: button;
+   background-color: #000;
+   background-image: none;
+   border: 1px solid #000;
+   border-radius: 4px;
+   box-shadow: rgba(31, 78, 135, 0.884) 4px 4px 0 0, #000 4px 4px 0 1px;
+   transform: scale(1.2);
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   margin: 0 5px 10px 0;
+   overflow: visible;
+   padding: 12px 40px;
+   text-align: center;
+   text-transform: none;
+   touch-action: manipulation;
+   user-select: none;
+   -webkit-user-select: none;
+   vertical-align: middle;
+   white-space: nowrap;
+   align-items: center;
+   margin-left: 30px;
+ }
+
+ .btn:focus {
+   text-decoration: none;
+ }
+
+ .btn:hover {
+   text-decoration: none;
+   background-color: #000;
+ }
+
+ .btn:active {
+   box-shadow: #000 0 3px 5px inset;
+   outline: 0;
+   background-color: #000;
+
+ }
+
+ .btn:not([disabled]):active {
+   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+   transform: translate(2px, 2px);
+ }
+
+ @media (min-width: 768px) {
+   .button {
+     padding: 12px 50px;
+   }
+ }
+
+
+ #board {
+   margin-top: 30px;
+   border: 8px;
+   padding-left: 75px;
+
+ }
+
+ .box {
+
+   height: 150px;
+   width: 150px;
+   text-align: center;
+   font-size: 100px;
+   background-color: rgba(31, 78, 135, 0.884);
+   border: 3px solid #000;
+   border-radius: 20px;
+   box-sizing: border-box;
+   color: #fff;
+
+ }
+
+ .red {
+   color: rgba(255, 0, 0, 0.33);
+   background-color: salmon;
+ }
+
+ .blue {
+   color: rgba(0, 0, 128, 0.336);
+   background-color: lightblue;
+ }
